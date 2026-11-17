@@ -1,0 +1,26 @@
+BRAIN TUMOR MODEL V2 EVALUATION
+==============================
+Checkpoint Epoch: 9
+Validation Loss: 0.1398
+Validation Accuracy: 0.9416
+Test Samples: 611
+Accuracy: 0.9083
+Precision: 0.9147
+Recall: 0.9009
+F1-score: 0.9058
+
+CONFUSION MATRIX
+[[137  30   6]
+ [ 11 245   2]
+ [  2   5 173]]
+
+CLASSIFICATION REPORT
+                 precision    recall  f1-score   support
+
+     Meningioma       0.91      0.79      0.85       173
+         Glioma       0.88      0.95      0.91       258
+Pituitary Tumor       0.96      0.96      0.96       180
+
+       accuracy                           0.91       611
+      macro avg       0.91      0.90      0.91       611
+   weighted avg       0.91      0.91      0.91       611

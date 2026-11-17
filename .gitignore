@@ -1,0 +1,35 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Virtual environment
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Datasets and model weights
+dataset/
+data/
+*.pt
+*.pth
+*.onnx
+
+# Environment secrets
+.env
+.env.*
+
+# Keep example configuration
+!.env.example
+
+# Logs and cache
+*.log
+.pytest_cache/
+
+# Editor and OS files
+.vscode/
+.DS_Store
+Thumbs.db
